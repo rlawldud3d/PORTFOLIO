@@ -1,0 +1,45 @@
+/* pc.css */
+section {
+    width: 100%;
+    max-width: 1400px;
+    /* 900이하로 줄어들지 않음 */
+    min-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #main {
+    padding: 20px 0;
+  }
+  
+  #main article {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  /* 짝수 어티클은 반대로 표시 */
+  #main article:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+  
+  #main article figure {
+    width: 50%;
+  }
+  
+  #main article figure img {
+    width: 100%;
+    display: block;
+  }
+  
+  #main article .text {
+    background: #fff;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  #main article .text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  

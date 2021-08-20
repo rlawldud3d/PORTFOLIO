@@ -1,0 +1,108 @@
+/* style.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+    #b2bad2;
+   #cdd1b0;
+   #d6a192;
+    #f2df98;
+   
+}
+body {
+  margin: 0;
+  color: #444;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+p{
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+header h1 a span {
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+
+.linkBtn{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  color: #444;
+  background: #b2bad2;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+
+
+}
+.linkBtn2{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  color: #444;
+  background:  #cdd1b0;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.linkBtn3{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  color: #444;
+  background:   #ccc;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.linkBtn4{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  color: #444;
+  background:  #f2df98  ;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.linkBtn5{
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  color: #444;
+  background:  #d6a192 ;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
